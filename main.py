@@ -119,7 +119,7 @@ hit_point_ints = [0,1,2,3]
 
 def pokemon_fight(chosen_pokemon, opponent):
     attacker = chosen_pokemon
-    chosen_pokemon.health = 1
+    chosen_pokemon.health = 10
     opponent.health = 10
 
     winner = None
